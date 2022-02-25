@@ -8,7 +8,7 @@
             <ul class="flex space-x-4 text-gray-800">
                 <router-link to="/"><li class="py-8 px-4 hover:cursor-pointer hover:bg-cyan-800 hover:text-gray-200">Home</li></router-link>
                 <router-link to="/about"><li class="py-8 px-4 hover:cursor-pointer hover:bg-cyan-800 hover:text-gray-200">About</li></router-link>
-                <router-link to="/contact"><li class="py-8 px-4 hover:cursor-pointer hover:bg-cyan-800 hover:text-gray-200">Contact</li></router-link>
+                <router-link to="/login"><li class="py-8 px-4 hover:cursor-pointer hover:bg-cyan-800 hover:text-gray-200">Login</li></router-link>
             </ul>
         </nav>
     </div>
