@@ -6,7 +6,7 @@
   <form class="flex flex-col space-y-4 p-3">
       <input type="text" class="border-1 p-1 rounded-md" placeholder="Username"/>
       <input type="password" class="border-1 p-1 rounded-md" placeholder="Password"/>
-      <button type="submit" class="bg-rose-500 text-rose-900 py-1 rounded-md">Login</button>
+      <button type="submit" class="bg-cyan-700 text-black py-1 rounded-md">Login</button>
   </form>
   </div>
 </div>
