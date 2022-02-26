@@ -10,13 +10,13 @@ const usersFromDB = [
 ];
 const userAuth = () => {
     const login = (username, password) => {
-        const user = usersFromDB.find(
+        const userDB = usersFromDB.find(
             (user) => user.username === username && user.password === password
         );
 
-        if(user){
+        if(userDB){
             isAuthenticated.value = true;
-            user.value = user.name;
+            user.value = userDB.name;
         }
     };
     const logout = () => {
